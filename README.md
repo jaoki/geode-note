@@ -10,3 +10,9 @@ com.gemstone.gemfire.distributed.ServerLauncher start server --redirect-output -
 
 
 
+### Flink Integration
+Flink's DataSet (DataSet<String, String>) to Geode Region???
+class GemFireRegionDataSet<K, V> extends DataSet<K, V>
+
+### Actual Execution
+ExecutionEnvironment.execute()
